@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lp 메신저</string>
+    <string name="title_activity_messenger">대화방</string>
+        
+    <string name="action_go_offline">오프라인전환</string>
+    <string name="action_go_online">재입장</string>
+    
+    <string name="enter_name">대화명입력</string>
+    <string name="enter">입장</string>
+    
+    <string name="send_short">Send</string>
+    
+    <string name="send">전송</string>
+    <string name="def"></string>
+    <string name="Next">원격-다음</string>
+    <string name="Previous">원격-이전</string>
+    <string name="Esc">원격-취소</string>
+
+</resources>

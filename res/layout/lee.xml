@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/controlNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:text="@string/Next" />
+
+        <Button
+            android:id="@+id/controlPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:text="@string/Previous" />
+
+        <Button
+            android:id="@+id/controlEsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:text="@string/Esc" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/conversation_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.40" >
+    </ListView>
+
+        <EditText
+            android:id="@+id/inputField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sendButton"
+            android:layout_alignBottom="@+id/sendButton"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="8.15"
+            android:ems="10"
+            android:inputType="textCapWords" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="324dp"
+            android:layout_above="@+id/inputField"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_weight="32.54"
+            android:text="@string/def" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/inputField"
+            android:layout_weight="1"
+            android:text="@string/send" />
+
+</RelativeLayout>
