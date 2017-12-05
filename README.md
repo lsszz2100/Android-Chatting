@@ -25,6 +25,8 @@ Adhoc, Wifidirect 기술을 포함한 안드로이드 채팅 프로그램입니�
 
 
 
+
+
 Java Server - Android Client
 
 Adhoc is an Android chat program including Wifidirect technology.
