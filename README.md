@@ -1,6 +1,6 @@
 # LpMessenger - Android chatting program
 
-2014 Version 1.0
+## 2014 Version 1.0
 
 자바서버 - 안드로이드 클라이언트
 
