@@ -1,8 +1,8 @@
 # LpMessenger - Android chatting program
 
-2014 Version 1.0
+## 2014 Version 1.0
 
-자바서버 - 안드로이드 클라이언트
+## 자바서버 - 안드로이드 클라이언트
 
 Adhoc, Wifidirect 기술을 포함한 안드로이드 채팅 프로그램입니다.
 
