@@ -22,7 +22,7 @@ Adhoc, Wifidirect 기술을 포함한 안드로이드 채팅 프로그램입니�
 
 이 프로그램은 자바서버를 실행시켜야 동작이 가능합니다.
 
----
+***
 Java Server - Android Client
 
 Adhoc is an Android chat program including Wifidirect technology.
